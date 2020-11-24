@@ -1,0 +1,1036 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+
+background: #f9f9f9;
+
+}
+.header-wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 20px 0;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+
+}
+nav{
+
+width: 40%;
+
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+}
+nav ul li{
+
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #2d3950;
+
+text-transform: uppercase;
+
+font-size: 18px;
+
+}
+.banner{
+  background-image: url(../image/bg.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-content{
+
+width: 30%;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner-content h1{
+  
+text-transform: uppercase;
+  
+color: #fff;
+  
+font-size: 100px;
+}
+.banner-content span{
+  
+display: block;
+  
+height: 2px;
+  
+width: 100%;
+  
+background: #15a4fa;
+}
+.banner-content p{
+  
+color: #fff;
+  
+margin: 15px;
+  
+font-size: 16px;
+}
+.banner-content button{
+  
+background: transparent;
+  
+border: none;
+  
+border: 1px solid #15a4fa;
+  
+color: #fff;
+  
+text-transform: capitalize;
+  
+font-size: 18px;
+  
+padding: 10px 20px;
+  
+border-radius: 5px;
+  
+margin: 30px;
+  
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.banner-content button:focus{
+  outline: none;
+}
+.banner-content button:hover{
+  color: #fff;
+  background-color: #15a4fa;
+}
+.icon{
+  
+color: #fff;
+  
+font-size: 20px;
+  
+position: absolute;
+  
+left: 50%;
+  
+top: 70%;
+  
+transform: translate(-50%, -70%);
+animation: ani 2s linear infinite;
+animation-direction: alternate;
+}
+@keyframes ani{
+  0%{
+    top: 70%;
+  }
+  100%{
+    top: 75%;
+  }
+}
+.design{
+
+background-color: #f6f9f9;
+
+padding: 50px 0;
+}
+.wraper{
+
+width: 80%;
+
+margin: auto;
+
+
+}
+.content{
+  text-align: center;
+}
+.content h2{
+  
+color: #2d3950;
+  
+text-transform: capitalize;
+  
+font-size: 30px;
+}
+.content p{
+  
+color: #999999;
+  
+margin-top: 20px;
+}
+.feature-section{
+  padding: 50px 0;
+
+}
+.single-feature{
+
+width: 30%;
+
+text-align: center;
+
+/* justify-content: space-between; */
+}
+.feature-icon{
+
+height: 100px;
+
+width: 100px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+100 */
+
+background: #48baff; /* Old browsers */
+
+background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+margin: auto;
+
+font-size: 40px;
+
+color: #fff;
+
+line-height: 100px;
+
+/* align-items: center; */
+}
+.single-feature h4{
+  color: #2d3950;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 10px 0;
+
+}
+.single-feature p{
+
+  color: #999999;
+
+}
+.flex{
+  
+display: flex;
+  
+justify-content: space-between;
+}
+.showcase{
+
+background: #f6f9f9;
+
+padding: 50px 0;
+}
+.heading{
+
+text-align: center;
+}
+.heading h2{
+  
+color: #2d3950;
+  
+font-size: 35px;
+}
+.heading p{
+  
+color: #909090;
+}
+.gallery{
+
+
+}
+.single-gallery{
+
+width: 30%;
+}
+.img{
+  position: relative;
+  
+
+
+}
+.img::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #48baff;
+  opacity: 0;
+  transition: .4s all ease-in-out;
+}
+.img::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #48baff;
+  opacity: 0;
+  transition: .4s all ease-in-out;
+}
+.single-gallery:hover .img::before{
+  opacity: .5;
+  width: 100%;
+}
+
+}
+.img img{
+  
+width: 100%;
+}
+.gallery-icon{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .6s all ease-in-out;
+}
+.gallery-icon ul{
+  
+list-style: none;
+}
+.gallery-icon ul li{
+  
+float: left;
+  
+margin: 5px;
+  
+color: #fff;
+  
+border: 1px solid #fff;
+  
+padding: 5px;
+  
+border-radius: 5px;
+}
+.single-gallery:hover .gallery-icon{
+  opacity: 1;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.stay-with-us{
+  background-image: url(../image/road-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding: 50px 0;
+  position: relative;
+
+}
+.stay-with-us::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2d3950bf;
+}
+.contact{
+
+width: 50%;
+
+margin: auto;
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+}
+.contact input[type="text"], .contact input[type="email"], .contact textarea{
+  
+width: 100%;
+  
+background: transparent;
+  
+border: none;
+  
+border: 1px solid rgb(216, 213, 213);
+  
+padding: 10px 0px;
+  
+border-radius: 5px;
+  
+margin: 10px 0;
+  
+outline: none;
+color: #fff;
+font-size: 16px;
+  
+/* padding-right: 0; */
+  
+/* padding-left: 0; */
+}
+.contact input[type="email"]{
+  
+}
+.contact textarea{
+  font-size: 16px;
+  
+}
+
+.contact input[type="checkbox"]{
+  
+float: left;
+}
+.contact input[type="submit"]{
+  
+/* display: flex; */
+  
+float: right;
+  
+background: transparent;
+  
+border: navajowhite;
+  
+color: #fff;
+  
+font-size: 18px;
+  
+text-transform: capitalize;
+  
+border: 1px solid #48baff;
+  
+padding: 5px 15px;
+  
+border-radius: 5px;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+  padding-left: 10px;
+  font-size: 16px;
+}
+.contact input:focus{
+  border: 1px solid #48baff;
+}
+.contact textarea:focus{
+  border: 1px solid #48baff;
+}
+.contact span{
+  color: #fff;
+  margin-left: 10px;
+}
+.contact .heading h2{
+  color: #fff;
+  
+  
+  }
+  .contact .heading p{
+    
+  color: #fff;
+  }
+  footer{
+
+background-color: #f6f9f9;
+
+}
+  .copy-right{
+
+width: 80%;
+
+margin: auto;
+
+height: 80px;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+  .last{
+
+width: 20%;
+
+}
+  .last p{
+
+  }
+  .footer-icon{
+
+width: 30%;
+
+}
+  .footer-icon ul{
+
+list-style: none;
+
+display: flex;
+
+}
+  .footer-icon ul li{
+
+margin: 0px 20px;
+
+border: 1px solid #15a4fa;
+
+padding: 10px;
+
+color: #fff;
+
+background: #15a4fa;
+
+}
+  
+*{
+  margin:0;
+  padding:0;
+}
+header{
+
+background: #f9f9f9;
+
+}
+.header-wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 20px 0;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+
+}
+nav{
+
+width: 40%;
+
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+}
+nav ul li{
+
+}
+nav ul li a{
+
+text-decoration: none;
+
+color: #2d3950;
+
+text-transform: uppercase;
+
+font-size: 18px;
+
+}
+.banner{
+  background-image: url(../image/bg.png);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-content{
+
+width: 30%;
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+text-align: center;
+}
+.banner-content h1{
+  
+text-transform: uppercase;
+  
+color: #fff;
+  
+font-size: 100px;
+}
+.banner-content span{
+  
+display: block;
+  
+height: 2px;
+  
+width: 100%;
+  
+background: #15a4fa;
+}
+.banner-content p{
+  
+color: #fff;
+  
+margin: 15px;
+  
+font-size: 16px;
+}
+.banner-content button{
+  
+background: transparent;
+  
+border: none;
+  
+border: 1px solid #15a4fa;
+  
+color: #fff;
+  
+text-transform: capitalize;
+  
+font-size: 18px;
+  
+padding: 10px 20px;
+  
+border-radius: 5px;
+  
+margin: 30px;
+  
+cursor: pointer;
+transition: .4s all ease-in-out;
+}
+.banner-content button:focus{
+  outline: none;
+}
+.banner-content button:hover{
+  color: #fff;
+  background-color: #15a4fa;
+}
+.icon{
+  
+color: #fff;
+  
+font-size: 20px;
+  
+position: absolute;
+  
+left: 50%;
+  
+top: 70%;
+  
+transform: translate(-50%, -70%);
+animation: ani 2s linear infinite;
+animation-direction: alternate;
+}
+@keyframes ani{
+  0%{
+    top: 70%;
+  }
+  100%{
+    top: 75%;
+  }
+}
+.design{
+
+background-color: #f6f9f9;
+
+padding: 50px 0;
+}
+.wraper{
+
+width: 80%;
+
+margin: auto;
+
+
+}
+.content{
+  text-align: center;
+}
+.content h2{
+  
+color: #2d3950;
+  
+text-transform: capitalize;
+  
+font-size: 30px;
+}
+.content p{
+  
+color: #999999;
+  
+margin-top: 20px;
+}
+.feature-section{
+  padding: 50px 0;
+
+}
+.single-feature{
+
+width: 30%;
+
+text-align: center;
+
+/* justify-content: space-between; */
+}
+.feature-icon{
+
+height: 100px;
+
+width: 100px;
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+0,48baff+50,5fc3ff+50,5fc3ff+50,5fc3ff+100 */
+
+background: #48baff; /* Old browsers */
+
+background: -moz-linear-gradient(left,  #48baff 0%, #48baff 50%, #5fc3ff 50%, #5fc3ff 50%, #5fc3ff 100%); /* FF3.6-15 */
+
+background: -webkit-linear-gradient(left,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#5fc3ff 100%); /* Chrome10-25,Safari5.1-6 */
+
+background: linear-gradient(to right,  #48baff 0%,#48baff 50%,#5fc3ff 50%,#5fc3ff 50%,#5fc3ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48baff', endColorstr='#5fc3ff',GradientType=1 ); /* IE6-9 */
+
+margin: auto;
+
+font-size: 40px;
+
+color: #fff;
+
+line-height: 100px;
+
+/* align-items: center; */
+}
+.single-feature h4{
+  color: #2d3950;
+  text-transform: capitalize;
+  font-size: 20px;
+  margin: 10px 0;
+
+}
+.single-feature p{
+
+  color: #999999;
+
+}
+.flex{
+  
+display: flex;
+  
+justify-content: space-between;
+}
+.showcase{
+
+background: #f6f9f9;
+
+padding: 50px 0;
+}
+.heading{
+
+text-align: center;
+}
+.heading h2{
+  
+color: #2d3950;
+  
+font-size: 35px;
+}
+.heading p{
+  
+color: #909090;
+}
+.gallery{
+
+
+}
+.single-gallery{
+
+width: 30%;
+}
+.img{
+  position: relative;
+  
+
+
+}
+.img::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #48baff;
+  opacity: 0;
+  transition: .4s all ease-in-out;
+}
+.img::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-color: #48baff;
+  opacity: 0;
+  transition: .4s all ease-in-out;
+}
+.single-gallery:hover .img::before{
+  opacity: .5;
+  width: 100%;
+}
+
+}
+.img img{
+  
+width: 100%;
+}
+.gallery-icon{
+
+position: absolute;
+
+top: 50%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+opacity: 0;
+transition: .6s all ease-in-out;
+}
+.gallery-icon ul{
+  
+list-style: none;
+}
+.gallery-icon ul li{
+  
+float: left;
+  
+margin: 5px;
+  
+color: #fff;
+  
+border: 1px solid #fff;
+  
+padding: 5px;
+  
+border-radius: 5px;
+}
+.single-gallery:hover .gallery-icon{
+  opacity: 1;
+}
+.gallery{
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+.stay-with-us{
+  background-image: url(../image/road-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  padding: 50px 0;
+  position: relative;
+
+}
+.stay-with-us::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2d3950bf;
+}
+.contact{
+
+width: 50%;
+
+margin: auto;
+
+position: absolute;
+
+left: 50%;
+
+top: 50%;
+
+transform: translate(-50%, -50%);
+}
+.contact input[type="text"], .contact input[type="email"], .contact textarea{
+  
+width: 100%;
+  
+background: transparent;
+  
+border: none;
+  
+border: 1px solid rgb(216, 213, 213);
+  
+padding: 10px 0px;
+  
+border-radius: 5px;
+  
+margin: 10px 0;
+  
+outline: none;
+color: #fff;
+font-size: 16px;
+  
+/* padding-right: 0; */
+  
+/* padding-left: 0; */
+}
+.contact input[type="email"]{
+  
+}
+.contact textarea{
+  font-size: 16px;
+  
+}
+
+.contact input[type="checkbox"]{
+  
+float: left;
+}
+.contact input[type="submit"]{
+  
+/* display: flex; */
+  
+float: right;
+  
+background: transparent;
+  
+border: navajowhite;
+  
+color: #fff;
+  
+font-size: 18px;
+  
+text-transform: capitalize;
+  
+border: 1px solid #48baff;
+  
+padding: 5px 15px;
+  
+border-radius: 5px;
+}
+.contact input::placeholder, .contact textarea::placeholder{
+  padding-left: 10px;
+  font-size: 16px;
+}
+.contact input:focus{
+  border: 1px solid #48baff;
+}
+.contact textarea:focus{
+  border: 1px solid #48baff;
+}
+.contact span{
+  color: #fff;
+  margin-left: 10px;
+}
+.contact .heading h2{
+  color: #fff;
+  
+  
+  }
+  .contact .heading p{
+    
+  color: #fff;
+  }
+  footer{
+
+background-color: #f6f9f9;
+
+}
+  .copy-right{
+
+width: 80%;
+
+margin: auto;
+
+height: 80px;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+}
+  .last{
+
+width: 20%;
+
+}
+  .last p{
+
+  }
+  .footer-icon{
+
+width: 30%;
+
+}
+  .footer-icon ul{
+
+list-style: none;
+
+display: flex;
+
+}
+  .footer-icon ul li{
+
+margin: 0px 20px;
+
+border: 1px solid #15a4fa;
+
+padding: 10px;
+
+color: #fff;
+
+background: #15a4fa;
+
+}
+  
